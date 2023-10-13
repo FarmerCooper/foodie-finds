@@ -1,0 +1,48 @@
+{
+  "name": "foodie-finds",
+  "version": "0.1.0",
+  "private": true,
+  "proxy": "http://localhost:5000",
+  "engines": {
+    "node": "18.x"
+  },
+  "dependencies": {
+    "@googlemaps/js-api-loader": "^1.14.3",
+    "@mui/material": "^5.10.0",
+    "@react-google-maps/api": "^2.12.1",
+    "axios": "^0.21.1",
+    "bcryptjs": "^2.4.3",
+    "cookie-session": "^2.0.0",
+    "dotenv": "^8.6.0",
+    "express": "^4.17.1",
+    "node-fetch": "^3.2.10",
+    "passport": "^0.4.1",
+    "passport-local": "^1.0.0",
+    "pg": "^8.5.1",
+    "prop-types": "^15.7.2",
+    "react": "^18.1.0",
+    "react-dom": "^18.1.0",
+    "react-redux": "^7.2.6",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "^5.0.1",
+    "redux": "^4.1.2",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "start": "node server/server.js",
+    "client": "react-scripts start",
+    "server": "nodemon --watch server server/server.js",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}
